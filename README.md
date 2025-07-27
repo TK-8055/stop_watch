@@ -40,8 +40,6 @@ This is a simple web app built using **HTML**, **CSS**, and **JavaScript** that 
    git clone https://github.com/yourusername/stopwatch-app.git
    
 2. Open the index.html file in your browser:
-
-
+    ```bash
     cd stopwatch-app
     open index.html
-# stop_watch

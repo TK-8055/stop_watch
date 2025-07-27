@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top:  200px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background: linear-gradient(to right,rgb(42, 49, 49),rgb(68, 104, 104));
+    /* padding: 225px; */
+}
+
+
+.fram{
+    background-color: aquamarine;
+    border: 8px solid rgb(35, 223, 192);
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 45%;
+}
+
+.dis{
+    display: flex;
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(51, 77, 183);
+}
+
+
+.but{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+    width: 375px;
+    height: 40px;
+}
+
+button{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 100px;
+    transition: 1s;
+}
+button:hover{
+    background-color: rgb(56, 201, 145);
+}
+.time{
+    
+    margin-left: 80px;
+    color: aliceblue;
+}
+
+@keyframes blink {
+    50%{
+        opacity:0;
+    }
+}
+
+.blink{
+    animation: blink  1s step-start 0s infinite;
+}
